@@ -10,7 +10,7 @@ warnings.filterwarnings("ignore")
 
 
 st.set_page_config(
-    page_title="Mango Leaf Disease Detection",
+    page_title="Plant Leaf Disease Detection",
     page_icon = ":mango:",
     initial_sidebar_state = 'auto'
 )
