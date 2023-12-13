@@ -30,8 +30,8 @@ def prediction_cls(prediction):
 
 
 with st.sidebar:
-        st.title("Mango Plant Disease Prediction")
-        st.subheader("Accurate detection of diseases present in the mango leaves. This helps an user to easily detect the disease and identify it's cause.")
+        st.title("Plant Disease Prediction")
+        st.subheader("Accurate detection of diseases present in the leaves. This helps an user to easily detect the disease and identify it's cause.")
 
              
 @st.cache(allow_output_mutation=True)
@@ -45,7 +45,7 @@ with st.spinner('Model is being loaded..'):
     
 
 st.write("""
-         # Mango Disease Detection with the possible solution for cure
+         # Plant Disease Detection with the possible solution for cure
          """
          )
 
