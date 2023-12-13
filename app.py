@@ -31,7 +31,7 @@ def prediction_cls(prediction):
 
 with st.sidebar:
         st.image('mg.png')
-        st.title("Mangifera Healthika")
+        st.title("Mango Plant Disease Prediction")
         st.subheader("Accurate detection of diseases present in the mango leaves. This helps an user to easily detect the disease and identify it's cause.")
 
              
@@ -46,7 +46,7 @@ with st.spinner('Model is being loaded..'):
     
 
 st.write("""
-         # Mango Disease Detection with Remedy Suggestion
+         # Mango Disease Detection with the possible solution for cure
          """
          )
 
@@ -111,6 +111,4 @@ else:
         st.sidebar.warning(string)
         st.markdown("## Remedy")
         st.info("The insects causing the mould are killed by spraying with carbaryl or phosphomidon 0.03%. It is followed by spraying with a dilute solution of starch or maida 5%. On drying, the starch comes off in flakes and the process removes the black mouldy growth fungi from different plant parts.")
-
-
 
